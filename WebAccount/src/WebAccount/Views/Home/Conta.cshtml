@@ -27,13 +27,14 @@
                 </div>
             </div>
 
-            <!-- CPF do cliente -->
             <div class="form-group">
+                <!-- CPF do cliente -->
                 <label class="col-md-2 control-label" for="Nome">CPF <h11>*</h11></label>
                 <div class="col-md-2">
                     <input id="cpf" name="cpf" placeholder="Apenas números" class="form-control input-md" required="" type="text" maxlength="11" pattern="[0-9]+$">
                 </div>
 
+                <!-- Data de nascimento -->
                 <label class="col-md-1 control-label" for="Nome">Nascimento<h11>*</h11></label>
                 <div class="col-md-2">
                     <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
